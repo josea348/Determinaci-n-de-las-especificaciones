@@ -28,9 +28,9 @@ nav {
 .bar-btn {
     font-size: 30px;
     color: #fff;
+    margin-top: 20px;
     margin-left: 20px;
     cursor: pointer;
-    margin-top: 20px;
 }
 .mi-logo {
     display: flex;
@@ -72,7 +72,6 @@ nav {
 #check:checked ~ .nav-menu li {
     display: block;
 }
-
 .banner-text {
     padding-top: 10px;
     text-align: center;
