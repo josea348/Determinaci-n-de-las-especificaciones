@@ -12,9 +12,15 @@ body {
     font-family: 'Poppins', sans-serif;
 }
 /*Navegacion*/
+header {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 nav {
     height: 100px;
-    max-width: 1350px;
+    max-width: 1550px;
     margin: 0;
     display: flex;
     justify-content: space-between;
@@ -75,6 +81,7 @@ nav {
 .banner-text {
     padding-top: 10px;
     text-align: center;
+    margin: 0 auto;
 }
 .banner-text .fuente {
     text-align: center;
